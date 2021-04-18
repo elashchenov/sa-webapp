@@ -13,6 +13,7 @@ pipeline {
         stage("maven build") {
             steps {
                 echo " ============== building project with maven ================== "
+                sh "ls"
                 sh "mvn install"
             }
         }
