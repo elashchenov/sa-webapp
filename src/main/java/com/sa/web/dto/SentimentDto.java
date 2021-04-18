@@ -34,7 +34,7 @@ public class SentimentDto {
     public String toString() {
         return "SentimentDto{" +
                 "sentence='" + sentence + '\'' +
-                ", polarity=" + polarity +
-                '}';
+                ", polarity='" + polarity +
+                '\'}';
     }
 }
