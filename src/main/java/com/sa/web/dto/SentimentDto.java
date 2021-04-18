@@ -35,6 +35,6 @@ public class SentimentDto {
         return "SentimentDto{" +
                 "sentence='" + sentence + '\'' +
                 ", polarity='" + polarity +
-                '\'}';
+                "'}";
     }
 }
