@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo " ============== building project with maven ================== "
                 sh "ls"
-                sh "mvn install"
+                sh "mvn install -X"
             }
         }
         stage("docker image") {
